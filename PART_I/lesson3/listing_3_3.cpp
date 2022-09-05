@@ -1,10 +1,8 @@
 #include <iostream>
 using namespace std;
 
-// there global integers
-int first_number = 0;
-int second_number = 0;
-int multiplication_result = 0;
+// Three global integers
+int first_number = 0, second_number = 0,multiplication_result = 0;
 
 void multiply_numbers(void) {
     cout << "Enter the first number: ";
